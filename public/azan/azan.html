@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>azan service</title>
+    <link rel="stylesheet" href="azan.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!--===========style.css========-->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="icon" href="../imgs/techhub-logo-01.png"/>
+</head>
+<body>
+   
+    
+    
+<div class="container">
+  <div class="btnn"><a href="../index.html"> <i class="fa-solid fa-house"></i> back home</a></div>  
+    <div class="pursh">
+        <marquee behavior="" direction="" style=" background:linear-gradient(to right,var(--fourth-color),var(--fith-color)) ;
+        border-radius: 5px;
+        border-radius: 2px solid red;
+        font-weight: bolder;
+        font-size: 20px;
+        color:#fffefe;
+        padding: 10px;">
+            <h3>..اذكر الله كثيرا</h3>
+            <h3>سبحان الله و الحمد لله و الله اكبر و لا حوله ولا قوة الا بالله</h3>
+        </marquee>
+        <div class="alert alert-success" id="alla" role="alert" style="text-align: center;font-size: 22px; color: #0e0d0d;font-weight: bold;">
+            اذكر الله (سبحان الله)
+          
+            </div>
+        <div class="pu" >
+            <button class="zero">0</button>
+            <div class="chold"></div>
+            <button class="counter">+</button>
+            <div class="tot" ></div>
+            
+        </div>
+    </div>
+    
+    <div class="prayTimes">
+        
+        
+        <label for="">city name</label>
+        <input type="text" id="city"  placeholder="enter your city name">
+        <label for="">country name</label>
+    <input type="text" id="country" placeholder="enter your country name">
+    <button id="btn">search</button>
+    
+    <h1 style="padding-top: 40px; text-align: center;font-size: 30px;font-weight: bolder;color: var(--primary-color);" >prayTimes at 
+        <span class="whc" style="color: #0e0d0d;">city</span> 
+        in  <span class="whco" style="color: #0e0d0d;"> country</span></h1>
+    </div>
+    <div class="pp">
+        <div class="prayt">
+            <div class="Fajr">
+                <h1>Fajr</h1>
+                <div class="ptif"  style="font-weight: bolder;font-size: 18px;"></div>
+            </div>
+            <div class="sunrise">
+                <h1>sunrise</h1>
+                <div class="ptisun" style="font-weight: bolder;font-size: 18px;"></div>
+            </div>
+            <div class="Dhuhr">
+                <h1>Dhuhr</h1>
+                <div class="ptiD" style="font-weight: bolder;font-size: 18px;"></div>
+            </div>
+            <div class="Asr">
+                <h1>Asr</h1>
+                <div class="ptiA" style="font-weight: bolder;font-size: 18px;"></div>
+            </div>
+            <div class="Sunset">
+                <h1>Sunset</h1>
+                <div class="ptisuns" style="font-weight: bolder;font-size: 18px;"></div>
+            </div>
+            <div class="Maghrib">
+                <h1>Maghrib</h1>
+                <div class="ptiM" style="font-weight: bolder;font-size: 18px;"></div>
+            </div>
+            <div class="Isha">
+                <h1>Isha</h1>
+                <div class="ptiI" style="font-weight: bolder;font-size: 18px;"></div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+  
+
+     <!--
+    <label for="city">City:</label>
+<input type="text" id="city" name="city">
+
+<label for="country">Country:</label>
+<input type="text" id="country" name="country">
+
+<button onclick="getPrayerTimes()">Get Prayer Times</button>
+
+<div id="prayer-times"></div>-->
+
+    <script src="azan.js"></script>
+</body>
+</html>

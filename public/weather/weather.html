@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--==========bootstrap========-->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <!--========fontasome=========-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!--===========style.css========-->
+  <link rel="stylesheet" href="weather.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="icon" href="../imgs/techhub-logo-01.png">
+    <title>weather service</title>
+</head>
+<body>
+    <div class="btnn"><a href="../index.html"> <i class="fa-solid fa-house"></i> back home</a></div>  
+    <div class="container">
+        <div class="info">
+            <div class="heading">
+                our weather service
+            </div>
+       <p>you can use this service to know weather befor travel to citry you are searched for...</p>
+        </div>
+        <div class="weather-main">
+            <div class="search">
+                <input type="text" placeholder="enter the city" class="inp">
+                <input type="text" placeholder="enter the country" class="inp2">
+                <button class="find"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="weather">
+                <img src="../imgs/rain.png" alt="" srcset="" style="width: 170px;" class="ph">
+                <h1 class="temp" style="font-family: cursive;"></h1>
+                <h2 class="city" style="font-family: serif;">  </h2> <span>
+                    <h2 class="country" style="font-family: serif;"></h2>
+                </span>
+                
+                <div class="det">
+                    <div class="row d-flex  justify-content-around align-items-baseline ps-4">
+                        <div class="col d-flex">
+                            <div class="hum">
+                                <img src="../imgs/humidity.png" alt="" srcset="" style="width: 65px;height: 65px;">
+                            </div>
+                            <div class="detp ps-2">
+                                <p class="per" style="font-weight: bolder;font-size: 24px;"></p>
+                                <p  style="line-height: 10px;font-size: 24px;">humidity</p>
+                            </div>
+                         
+                        </div>
+                        <div class="col d-flex ms-5">
+                            <div class="wind">
+                                <img src="../imgs/wind.png" alt="" srcset="" style="width: 60px;">
+                            </div>
+                            <div class="detp ps-2">
+                                <p class="win" style="font-size: 24px;text-transform: lowercase;"></p>
+                                <p style="font-size: 24px;line-height: 10px;">wind speed</p>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="weather.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

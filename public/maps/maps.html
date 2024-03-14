@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!---->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--==========bootstrap========-->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <!--========fontasome=========-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!--===========style.css========-->
+  <link rel="stylesheet" href="maps.css">
+  <!--==========fontasowm=========-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!--=========logo===============-->
+  <link rel="icon" href="../imgs/techhub-logo-01.png">
+  <!--========leaflet stylesheet======-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <title>maps service</title>
+</head>
+<body>
+    <div class="btnn"><a href="../index.html"> <i class="fa-solid fa-house"></i> back home</a></div>  
+    
+    <div class="container mt-4">
+        <div class="info">
+            <div class="heading">
+                our maps services
+            </div>
+       <p>you can use this services to get location that you are searched for...</p>
+        </div>
+        <div class="inputs mt-4">
+            <label for="">latitude</label>
+            <input type="text" placeholder="enter you lat..." class="latit">
+            <label for="">longitude</label>
+            <input type="text" placeholder="enter you long..." class="longi">
+            <button id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="mapcont   justify-content-around align-items-baseline mt-4">
+            <div class="address"></div>
+            <div class="allAdd"></div>
+            <div id="map" style="height: 500px; width: 100%; border-radius: 5px;text-align: center; font-size: 24px;font-weight: bolder; "></div>>
+        </div>
+    </div>
+
+ <!--=========leaflet script=========-->
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <!--=========map script=========-->
+    <script src="maps.js"></script>
+    <!--========bootstrap js===============-->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+   
+</body>
+</html>
